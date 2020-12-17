@@ -84,7 +84,7 @@ body {
   background: linear-gradient(178deg, rgba(175,188,209,1) 50%, rgba(100,109,131,1) 100%);
     display: table-caption;
     padding: 5px;
-    margin-bottom: 10px;
+    min-width: 175px;
 }
 .main-table-body tr:nth-child(even){
     background: #bdc0c7;

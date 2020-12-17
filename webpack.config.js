@@ -9,7 +9,10 @@ module.exports = {
       publicPath: '/',
    },
    devServer: {
-      historyApiFallback: true
+      historyApiFallback: true,
+      hot: false,
+    inline: false,
+    liveReload: false
    },
    performance: {
        maxEntrypointSize: 512000,
